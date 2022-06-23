@@ -26,7 +26,7 @@ public class App
             DriverManager.registerDriver(new com.mysql.jdbc.Driver());
             //Getting the connection
             String mysqlUrl = "jdbc:mysql://localhost:3306/";
-            Connection con = DriverManager.getConnection(mysqlUrl, "root", "27Rujan000");
+            Connection con = DriverManager.getConnection(mysqlUrl, "root", "xxxxx");
             System.out.println("Connection established......");
             //Creating the Statement
             Statement stmt = con.createStatement();
